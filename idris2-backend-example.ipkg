@@ -1,0 +1,8 @@
+package idris2-backend-example
+
+modules = Main
+main = Main
+executable = lazy-idris2
+depends = idris2
+        , network
+        , contrib
